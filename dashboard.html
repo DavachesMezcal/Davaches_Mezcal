@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVACHES - Mezcal Artesanal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f9f6f2; }
+        .header { background: #334e1a; color: #fff; padding: 1em 0; text-align: center; }
+        .brand-logo {
+            width: 100px; height: 100px; object-fit: cover; border-radius: 50%; border: 4px solid #fff; margin-bottom: 0.5em;
+        }
+        .container { max-width: 900px; margin: 2em auto; background: #fff; padding: 2em; border-radius: 8px; }
+        .dashboard-section { margin-bottom: 2em; }
+        h1, h2 { color: #334e1a; }
+        .card { background: #e2ecd3; padding: 1em; border-radius: 6px; margin-bottom: 1em; }
+        .footer { text-align: center; color: #888; padding: 1em; }
+        .mezcal-img {
+            width: 100%; max-width: 250px; border-radius: 8px; margin: 1em 0;
+            box-shadow: 0 2px 8px rgba(51,78,26,0.15);
+        }
+        .quick-links a { color: #334e1a; text-decoration: underline; }
+        .quick-links a:hover { color: #b09e55; }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <!-- Replace the src with your own logo image URL -->
+        <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=facearea&w=256&q=80" alt="Logo DAVACHES" class="brand-logo">
+        <h1 data-i18n="dashboard_title">DAVACHES - Mezcal Artesanal</h1>
+        <p data-i18n="brand_slogan">Elaborado con pasión, tradición y calidad.</p>
+    </div>
+    <div class="container">
+        <div class="dashboard-section">
+            <h2 data-i18n="welcome">¡Bienvenido al mundo del mezcal!</h2>
+            <p data-i18n="intro_text">
+                Descubre nuestras variedades, controla tus ventas y explora la cultura mezcalera con DAVACHES.
+            </p>
+            <!-- Example mezcal bottle image, update src to your own photo -->
+            <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Botella de Mezcal DAVACHES" class="mezcal-img">
+        </div>
+        <div class="dashboard-section">
+            <h2 data-i18n="stats">Estadísticas de Ventas</h2>
+            <div class="card">
+                <span data-i18n="stat_sales">Botellas vendidas este mes:</span> <strong>350</strong>
+            </div>
+            <div class="card">
+                <span data-i18n="stat_clients">Clientes nuevos:</span> <strong>48</strong>
+            </div>
+            <div class="card">
+                <span data-i18n="stat_views">Visitas a la tienda:</span> <strong>1,200</strong>
+            </div>
+        </div>
+        <div class="dashboard-section">
+            <h2 data-i18n="quick_links">Enlaces Rápidos</h2>
+            <ul class="quick-links">
+                <li><a href="#" data-i18n="catalog">Catálogo de Mezcales</a></li>
+                <li><a href="#" data-i18n="orders">Pedidos</a></li>
+                <li><a href="#" data-i18n="contact">Contacto</a></li>
+                <li><a href="#" data-i18n="about">Sobre DAVACHES</a></li>
+            </ul>
+        </div>
+        <div class="dashboard-section">
+            <h2 data-i18n="gallery">Galería</h2>
+            <!-- Add more <img> tags for your own gallery photos -->
+            <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Mezcal Agave" class="mezcal-img">
+            <img src="https://images.unsplash.com/photo-1457301547464-91995555cd23?auto=format&fit=crop&w=400&q=80" alt="Producción artesanal" class="mezcal-img">
+        </div>
+    </div>
+    <div class="footer">
+        <span data-i18n="footer">&copy; 2025 DAVACHES Mezcal Artesanal. Todos los derechos reservados.</span>
+    </div>
+</body>
+</html>
